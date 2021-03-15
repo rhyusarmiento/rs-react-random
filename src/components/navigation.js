@@ -8,6 +8,7 @@ export default function NavigationComponent() {
         <NavLink exact to="/">
           Home
         </NavLink>
+        <NavLink to="/hamburger">Hamburger</NavLink>
         <NavLink to="/show-hide">Show Hide</NavLink>
         <NavLink to="/toggle">Toggle</NavLink>
         <NavLink to="/counter">Counter</NavLink>
