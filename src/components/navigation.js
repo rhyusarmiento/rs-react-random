@@ -1,15 +1,21 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export default function Navigation() {
+export default function NavigationComponent() {
   return (
     <div className="nav-wrapper">
+      <div className="nav-content">
         <NavLink exact to="/">
-            Home
+          Home
         </NavLink>
-        <NavLink to="/hamburger">
-            Hamburger
-        </NavLink>
+        <NavLink to="/show-hide">Show Hide</NavLink>
+        <NavLink to="/toggle">Toggle</NavLink>
+        <NavLink to="/counter">Counter</NavLink>
+        <NavLink to="/font-sizer">Font Sizer</NavLink>
+        <NavLink to="/align">Align</NavLink>
+        <NavLink to="/color">Color</NavLink>
+        <NavLink to="/clock">Clock</NavLink>
+      </div>
     </div>
   );
 }
